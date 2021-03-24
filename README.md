@@ -74,19 +74,37 @@ npm start
 
 # Endpoints
 ### GET '/categories'
-- Fetches a dictionary of categories in which the keys are the ids and the value is the corresponding string of the category
+- Fetches a list/array of categories made up of objects, each with an id and type
 - Request Arguments: None
-- Returns: An object with a single key, categories, that contains an object of id: category_string key:value pairs.
+- Returns: A list/array of objects with of id and category type
 
 Example: `curl http://localhost:5000/categories`
 ```
 {
-	'1' : "Science",
-	'2' : "Art",
-	'3' : "Geography",
-	'4' : "History",
-	'5' : "Entertainment",
-	'6' : "Sports"
+  {
+    id: 1
+    type: "Science", 
+  },
+  {
+    id: 2
+    type: "Art", 
+  }, 
+  {
+    id: 3
+    type: "Geography", 
+  },
+  {
+    id: 4
+    type: "History", 
+  },
+  {
+    id: 5
+    type: "Entertainment", 
+  },
+  {
+    id: 6
+    type: "Sports", 
+  }
 }
 ```
 
@@ -130,7 +148,7 @@ Example: `curl http://localhost:5000/questions`
 Example: `curl -X DELETE http://localhost:5000/question/2`
 ```
 {
-    "deleted": 2,
+    "deleted_id": 2,
     "questions": [
         {
             "answer": "Tom Cruise",
@@ -147,7 +165,7 @@ Example: `curl -X DELETE http://localhost:5000/question/2`
 ```
 
 ### POST '/questions'
-- Creates a new question posted from the react front end.
+- Creates a new question posted from the form on the react front end.
 - Fields: answer, difficulty and category. 
 - Returns a success value and ID of the question.
 - If search field is present will return matching expressions
@@ -156,7 +174,6 @@ Example (Create):
 `curl http://localhost:5000/questions -X POST -H "Content-Type: application/json" -d '{"question":"Who is Tony Stark?", "answer":"Iron Man", "category":"4", "difficulty":"2"}'`
 ```
 {
-... # shortened for brevity
   "success": true, 
   "total_questions": 35
 }
@@ -228,7 +245,7 @@ When an error occurs a JSON response is returned
 	- 400: Bad Request
 	- 404: Resource Not Found
 	- 422: Not Processable
-Example "Resource Not Found":
+Example for "404: Resource Not Found":
 ```
 {
 	"success": False,
@@ -240,7 +257,6 @@ Example "Resource Not Found":
 ## Testing
 
 To run the tests, run
-
 ```
 dropdb trivia_test
 createdb trivia_test
@@ -249,6 +265,5 @@ python test_flaskr.py
 ```
 
 6. Authors
-- Udacity & Sam White (GitHub: @samwhiteiv)
 
 7. Acknowledgements
