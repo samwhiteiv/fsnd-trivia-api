@@ -1,0 +1,100 @@
+flaskr/__init__.py:11:1: E302 expected 2 blank lines, found 0
+flaskr/__init__.py:14:80: E501 line too long (99 > 79 characters)
+flaskr/__init__.py:17:5: E306 expected 1 blank line before a nested definition, found 0
+flaskr/__init__.py:19:80: E501 line too long (90 > 79 characters)
+flaskr/__init__.py:20:80: E501 line too long (91 > 79 characters)
+flaskr/__init__.py:24:1: W293 blank line contains whitespace
+flaskr/__init__.py:25:5: E303 too many blank lines (2)
+flaskr/__init__.py:33:5: E265 block comment should start with '# '
+flaskr/__init__.py:38:80: E501 line too long (88 > 79 characters)
+flaskr/__init__.py:42:5: E265 block comment should start with '# '
+flaskr/__init__.py:51:1: W293 blank line contains whitespace
+flaskr/__init__.py:52:5: E265 block comment should start with '# '
+flaskr/__init__.py:52:80: E501 line too long (83 > 79 characters)
+flaskr/__init__.py:63:1: W293 blank line contains whitespace
+flaskr/__init__.py:65:80: E501 line too long (216 > 79 characters)
+flaskr/__init__.py:65:217: W291 trailing whitespace
+flaskr/__init__.py:69:80: E501 line too long (86 > 79 characters)
+flaskr/__init__.py:70:62: W291 trailing whitespace
+flaskr/__init__.py:80:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:91:70: W291 trailing whitespace
+flaskr/__init__.py:92:80: E501 line too long (89 > 79 characters)
+flaskr/__init__.py:93:77: W291 trailing whitespace
+flaskr/__init__.py:98:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:98:80: E501 line too long (84 > 79 characters)
+flaskr/__init__.py:99:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:102:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:103:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:105:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:106:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:107:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:114:9: E722 do not use bare 'except'
+flaskr/__init__.py:115:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:116:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:119:80: E501 line too long (134 > 79 characters)
+flaskr/__init__.py:120:55: W291 trailing whitespace
+flaskr/__init__.py:121:80: E501 line too long (80 > 79 characters)
+flaskr/__init__.py:122:45: W291 trailing whitespace
+flaskr/__init__.py:127:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:128:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:129:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:130:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:131:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:133:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:133:80: E501 line too long (121 > 79 characters)
+flaskr/__init__.py:134:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:136:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:137:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:139:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:145:9: E722 do not use bare 'except'
+flaskr/__init__.py:146:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:149:80: E501 line too long (162 > 79 characters)
+flaskr/__init__.py:149:163: W291 trailing whitespace
+flaskr/__init__.py:150:74: W291 trailing whitespace
+flaskr/__init__.py:151:66: W291 trailing whitespace
+flaskr/__init__.py:152:41: W291 trailing whitespace
+flaskr/__init__.py:153:8: W291 trailing whitespace
+flaskr/__init__.py:158:80: E501 line too long (94 > 79 characters)
+flaskr/__init__.py:169:80: E501 line too long (82 > 79 characters)
+flaskr/__init__.py:172:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:182:69: W291 trailing whitespace
+flaskr/__init__.py:183:66: W291 trailing whitespace
+flaskr/__init__.py:184:68: W291 trailing whitespace
+flaskr/__init__.py:185:26: W291 trailing whitespace
+flaskr/__init__.py:189:80: E501 line too long (81 > 79 characters)
+flaskr/__init__.py:193:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:194:1: W293 blank line contains whitespace
+flaskr/__init__.py:203:80: E501 line too long (253 > 79 characters)
+flaskr/__init__.py:203:254: W291 trailing whitespace
+flaskr/__init__.py:206:48: W291 trailing whitespace
+flaskr/__init__.py:211:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:212:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:213:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:214:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:214:80: E501 line too long (89 > 79 characters)
+flaskr/__init__.py:216:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:217:80: E501 line too long (91 > 79 characters)
+flaskr/__init__.py:218:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:219:64: E225 missing whitespace around operator
+flaskr/__init__.py:219:80: E501 line too long (128 > 79 characters)
+flaskr/__init__.py:221:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:222:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:223:80: E501 line too long (81 > 79 characters)
+flaskr/__init__.py:224:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:227:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:232:9: E722 do not use bare 'except'
+flaskr/__init__.py:233:11: E111 indentation is not a multiple of four
+flaskr/__init__.py:234:1: W293 blank line contains whitespace
+flaskr/__init__.py:235:5: E265 block comment should start with '# '
+flaskr/__init__.py:247:28: W291 trailing whitespace
+flaskr/__init__.py:255:28: W291 trailing whitespace
+flaskr/__init__.py:259:1: W293 blank line contains whitespace
+flaskr/__init__.py:263:28: W291 trailing whitespace
+flaskr/__init__.py:267:1: W293 blank line contains whitespace
+flaskr/__init__.py:271:28: W291 trailing whitespace
+flaskr/__init__.py:275:1: W293 blank line contains whitespace
+flaskr/__init__.py:278:1: E305 expected 2 blank lines after class or function definition, found 1
+flaskr/__init__.py:278:4: W291 trailing whitespace
+flaskr/__init__.py:292:44: W291 trailing whitespace
+flaskr/__init__.py:297:4: W292 no newline at end of file
+flaskr/__init__.py:297:80: E501 line too long (284 > 79 characters)
